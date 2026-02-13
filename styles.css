@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Page */
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+/* Heading */
+
+h1 {
+    margin: 20px 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #00ffcc;
+}
+
+
+/* Video container */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/* Camera feed */
+
+.video-container img {
+    width: 720px;
+    max-width: 95%;
+    border-radius: 15px;
+    border: 4px solid #00ffcc;
+    box-shadow: 0 0 25px rgba(0, 255, 204, 0.6);
+}
+
+
+/* Info text */
+
+p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #cfd8dc;
+}
+
+
+/* Footer (optional) */
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #90a4ae;
+}
